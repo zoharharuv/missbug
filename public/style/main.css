@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(28, 31, 32);
+    color: rgb(241, 236, 236);
+}
+
+main {
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+/* NAVBAR */
+
+.nav-bar {
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-inline-start: 20px;
+    color: rgb(0, 128, 49);
+}
+
+.nav-bar-middle{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-middle h1{
+    color: rgb(228, 228, 48);
+}
+
+.nav-bar-end{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-bar a {
+    color: inherit;
+}
+
+.nav-bar button {
+    color: red;
+}
+
+/* LOGIN PAGE */
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.login-form button {
+    color: red;
+}
+
+/* SIGNUP */
+
+.signup-section {
+    text-align: center;
+}
+
+.signup-section h2 {
+    color: rgb(54, 190, 190);
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.signup-form button {
+    color: rgb(172, 172, 36);
+}
+
+/* UPPER USER DETAILS */
+
+.user-details {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* BUG APP */
+
+.bug-app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* BUG TABLE */
+
+.bug-table, .user-table {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.bug-table tr td, .user-table tr td {
+    padding: 10px;
+    border: 1px white solid;
+}
+
+.bug-table a, .user-table a{
+    font-size: 1.5em;
+    color: inherit;
+}
+
+.bug-table a:hover, .user-table a:hover{
+    color: #b4adad !important;
+}
+
+/* ADD BUG */
+
+.add-bug {
+    gap: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* USER DETAILS */
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
